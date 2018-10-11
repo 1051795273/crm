@@ -1,0 +1,7 @@
+#app {height: 100%;}
+#login {height: 100%; background: #f5f5f5; }
+#login .ui.grid {height: 100%;}
+#login .column {width: 450px;}
+
+#index .ui.dropdown .red.item {color: #f00 !important;}
+#index .ui.grid .column {padding: 0 1rem;}
