@@ -17,8 +17,15 @@
 </body>
 </html>
 <script src="{{ mix('js/app.js') }}"></script>
+<script>
+    window.jQuery = window.$;
+</script>
 <script src="{{ asset('js/semantic.min.js') }}"></script>
 <script>
-    $('.ui.accordion').accordion();
-    $('.ui.dropdown').dropdown();
+    $(function() {
+        $('#nav .ui.dropdown').dropdown();
+        $('#left .ui.accordion').accordion();
+        $('#index .ui.tabular .item').tab();
+    })
 </script>
+

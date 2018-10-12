@@ -20,7 +20,6 @@ window = (typeof window != 'undefined' && window.Math == Math)
 ;
 
 $.fn.tab = function(parameters) {
-
   var
     // use window context if none specified
     $allModules     = $.isFunction(this)

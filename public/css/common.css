@@ -3,5 +3,5 @@
 #login .ui.grid {height: 100%;}
 #login .column {width: 450px;}
 
-#index .ui.dropdown .red.item {color: #f00 !important;}
-#index .ui.grid .column {padding: 0 1rem;}
+#nav .ui.dropdown .red.item {color: #f00 !important;}
+#index .ui.header .icon:only-child {margin-right: 0}
