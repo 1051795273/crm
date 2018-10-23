@@ -12,6 +12,12 @@
 */
 
 Route::auth();
-Route::group(['middleware' => ['auth']], function() {
-    Route::get('/', function () {return view('index');});
+
+//后台路由
+Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], function() {
+    Route::get('/', 'IndexController@index')->name('admin');
 });
+
+//Route::group(['middleware' => ['auth']], function() {
+//    Route::get('/', function () {return view('index');});
+//});

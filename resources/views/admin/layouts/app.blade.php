@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
     <meta name="csrf-token" content="{{ csrf_token() }}"/>
-    <title>CRM管理系统</title>
-    <link rel="stylesheet" href="{{ mix('css/app.css')}}">
+    <title>后台管理中心</title>
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
 </head>
 <body>

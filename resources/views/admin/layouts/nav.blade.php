@@ -1,10 +1,7 @@
 <div id="nav">
     <div class="ui blue inverted menu">
-        <a class="item"><h5>CRM管理系统 <small>v1.0</small></h5></a>
+        <a class="item"><h5>后台管理中心</h5></a>
         <div class="right menu">
-            <a class="item">
-                消息 <div class="ui orange circular label">0</div>
-            </a>
             <div class="ui dropdown item">
                 我的账户 <i class="dropdown icon"></i>
                 <div class="menu">
